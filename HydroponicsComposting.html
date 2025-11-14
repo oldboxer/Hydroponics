@@ -1,0 +1,444 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comprehensive Guide to Hydroponic Plants and Compost</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4faf4;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      background: #2e8b57;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    nav {
+      background: #40916c;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .dropdown {
+      position: relative;
+    }
+    .dropbtn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 1rem;
+      cursor: pointer;
+      padding: 8px 12px;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: #fff;
+      min-width: 200px;
+      max-width: 300px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border-radius: 8px;
+      margin-top: 5px;
+      padding: 10px;
+      overflow-y: auto;
+      max-height: 300px;
+    }
+    .dropdown-content a {
+      color: #27724c;
+      padding: 8px 10px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid #e9f5e7;
+      font-size: 0.9rem;
+    }
+    .dropdown-content a:last-child {
+      border-bottom: none;
+    }
+    .dropdown-content a:hover {
+      background: #e9f5e7;
+    }
+    .show {
+      display: block;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #e9f5e7;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2, h3 {
+      color: #2e8b57;
+      margin-top: 0;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    .highlight {
+      background-color: #f0f8ff;
+      border-left: 5px solid #2e8b57;
+      padding: 10px;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    @media (max-width: 600px) {
+      nav,
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+      .dropdown-content {
+        position: static;
+        max-height: none;
+        box-shadow: none;
+        padding: 0;
+        min-width: auto;
+        max-width: 100%;
+      }
+      .container {
+        padding: 15px;
+        margin: 0 10px;
+        border-radius: 0;
+      }
+    }
+    .heading{
+      color: #fff;
+      font-size: 250%;
+    }
+    .para {
+      font-size: 110%;
+      margin-top: -30px;
+    }
+    h3 {
+      font-size: 130%;
+    }
+    .google_form {
+      color: rgb(18, 149, 77);
+    }
+    .indent{
+        margin-right: 10px;
+        margin-top: 30px;
+        margin-bottom: -20px; 
+        font-size: 80%;
+        font-style: italic;
+    }
+    .margin {
+      margin-bottom: 20px;
+    }
+    .minus_margin {
+      margin-bottom: -45px;
+      margin-left: 10px;
+    }
+    audio::-webkit-media-controls-timeline {
+        display: none;
+    }
+  </style>
+</head>
+<body>
+  <audio id="bg-music" autoplay loop muted>
+    <source src="bas bajna chiye gana.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+  const bgMusic = document.getElementById('bg-music');
+
+// Allow autoplay when muted
+bgMusic.play();
+
+// Unmute and restart after first user interaction
+function unlockAudio() {
+  bgMusic.muted = false;
+  bgMusic.play();
+}
+
+// Trigger on both desktop + mobile ASAP
+["pointerdown", "mousedown", "touchstart"].forEach(eventName => {
+  document.addEventListener(eventName, unlockAudio, { once: true });
+});
+
+</script>
+  <header>
+    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa23vLIObmjp6--dsqiMJ7dnEFQqP8ec3qZw&amp;s" alt="" width="100"></center>
+    <em>Podar International School, Chinchwad</em>
+    <h2 class="heading">Comprehensive Guide to Hydroponic Plants and Compost</h2>
+    <p class="para">This page provides an in-depth overview of hydroponic plant cultivation, composting techniques, their benefits, and how they interconnect for sustainable gardening. Whether you're a beginner or experienced grower, find detailed information, tips, and resources here.</p>
+    <p align="right" class="indent">Average Rating = ⭐⭐⭐⭐⭐</p>
+  </header>
+  <nav>
+    <div class="navbar">
+      <div class="dropdown">
+        <button onclick="toggleDropdown('hydroDropdown')" class="dropbtn">Hydroponics</button>
+        <div id="hydroDropdown" class="dropdown-content">
+          <a href="#hydroponics-intro">What is Hydroponics?</a>
+          <a href="#hydroponics-benefits">Benefits of Hydroponic Plants</a>
+          <a href="#hydroponics-systems">Common Hydroponic Systems</a>
+          <a href="#hydroponics-plants">Popular Plants for Hydroponics</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button onclick="toggleDropdown('compostDropdown')" class="dropbtn">Compost</button>
+        <div id="compostDropdown" class="dropdown-content">
+          <a href="#compost-intro">What is Compost?</a>
+          <a href="#compost-benefits">Benefits of Compost</a>
+          <a href="#compost-making">How to Make Compost</a>
+          <a href="#compost-uses">Uses of Compost</a>
+          <a href="#relation">Hydroponics and Compost: Integration</a>
+        </div>
+      </div>
+        <a href="#tips-resources"><button class="dropbtn">Tips and Resources</button></a>
+        <a href="#pioneers"><button class="dropbtn">Pioneers</button></a>
+  </div></nav>
+  <div class="container">
+    <section id="hydroponics-intro">
+      <h2>What is Hydroponics?</h2>
+      <p>Hydroponics is a method of growing plants without soil, where roots are immersed in a nutrient-rich water solution. The system delivers essential minerals directly to the plants, often leading to faster growth and higher yields. Hydroponics originated from ancient practices but modernized in the 19th century with experiments by scientists like Julius von Sachs.</p>
+      <p><strong>Key Components:</strong></p>
+      <ul>
+        <li><strong>Nutrient Solution:</strong> A balanced mix of water, macronutrients (nitrogen, phosphorus, potassium), and micronutrients (iron, magnesium, etc.). pH levels are typically maintained between 5.5-6.5.</li>
+        <li><strong>Growing Medium:</strong> Inert materials like perlite, vermiculite, rockwool, coconut coir, or clay pebbles that support plant roots and retain moisture.</li>
+        <li><strong>Delivery System:</strong> Pumps, timers, and reservoirs to circulate the solution.</li>
+        <li><strong>Lighting:</strong> Artificial lights (LED, HID) for indoor setups, mimicking sunlight.</li>
+      </ul>
+    </section>
+    <section id="hydroponics-benefits">
+      <h2>Benefits of Hydroponic Plants</h2>
+      <ul>
+        <li><strong>Efficiency:</strong> Plants grow 30-50% faster due to direct nutrient uptake, with yields up to 10 times higher in some cases.</li>
+        <li><strong>Water Conservation:</strong> Uses 90% less water than traditional soil farming by recycling the solution.</li>
+        <li><strong>Space Utilization:</strong> Vertical stacking allows for dense, urban farming (e.g., in greenhouses or homes).</li>
+        <li><strong>Pest and Disease Control:</strong> Soil-less environment reduces risks; easier to monitor and treat issues.</li>
+        <li><strong>Year-Round Production:</strong> Controlled indoors, independent of weather or seasons.</li>
+        <li><strong>Environmental Impact:</strong> Lower carbon footprint compared to conventional agriculture, especially when using renewable energy.</li>
+      </ul>
+      <div class="highlight">
+        <p><strong>Fact:</strong> Hydroponics is used commercially for crops like lettuce, tomatoes, cucumbers, and herbs, producing over 10% of the world's vegetables in controlled environments.</p>
+      </div>
+    </section>
+    <section id="hydroponics-systems">
+      <h2>Common Hydroponic Systems</h2>
+      <p>There are several types, each suited to different scales and plant needs. Here's a breakdown:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>System Type</th>
+            <th>Description</th>
+            <th>Pros</th>
+            <th>Cons</th>
+            <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Deep Water Culture (DWC)</td>
+            <td>Roots submerged in an oxygenated nutrient tank; plants in net pots above.</td>
+            <td>Simple, low-cost, excellent oxygenation.</td>
+            <td>Risk of root rot if oxygen fails; less stable for large plants.</td>
+            <td>Leafy greens, herbs.</td>
+          </tr>
+          <tr>
+            <td>Nutrient Film Technique (NFT)</td>
+            <td>Thin film of nutrient solution flows over roots in channels.</td>
+            <td>Efficient nutrient use, easy to scale.</td>
+            <td>Requires constant flow; prone to clogs.</td>
+            <td>Strawberries, lettuce.</td>
+          </tr>
+          <tr>
+            <td>Drip System</td>
+            <td>Nutrients drip onto the medium via tubes and emitters.</td>
+            <td>Flexible, good for various media; automated.</td>
+            <td>Can waste water if not timed well; maintenance-intensive.</td>
+            <td>Tomatoes, peppers.</td>
+          </tr>
+          <tr>
+            <td>Ebb and Flow (Flood and Drain)</td>
+            <td>Medium floods with nutrients periodically, then drains.</td>
+            <td>Versatile for different plants; good aeration.</td>
+            <td>Requires timers and pumps; potential for uneven watering.</td>
+            <td>Mixed crops.</td>
+          </tr>
+          <tr>
+            <td>Aeroponics</td>
+            <td>Roots misted with nutrient solution in air.</td>
+            <td>Maximum oxygenation, fast growth.</td>
+            <td>High-tech, expensive; sensitive to power outages.</td>
+            <td>High-value crops like orchids.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><strong>Setup Tips:</strong> Start small with a kit. Monitor pH, EC (electrical conductivity for nutrient strength), and temperature (65-75°F/18-24°C). Use organic or synthetic nutrients based on preference.</p>
+    </section>
+    <section id="hydroponics-plants">
+      <h2>Popular Plants for Hydroponics</h2>
+      <ul>
+        <li><strong>Leafy Greens:</strong> Lettuce, spinach, kale – fast-growing, high yield.</li>
+        <li><strong>Herbs:</strong> Basil, mint, cilantro – easy to maintain, continuous harvest.</li>
+        <li><strong>Fruits:</strong> Tomatoes, strawberries, cucumbers – require support structures.</li>
+        <li><strong>Others:</strong> Peppers, radishes, microgreens – diverse options for beginners.</li>
+      </ul>
+      <p><strong>Growing Tips:</strong> Choose disease-resistant varieties. Provide 14-16 hours of light daily. Harvest regularly to encourage production.</p>
+    </section>
+    <section id="compost-intro">
+      <h2>What is Compost?</h2>
+      <p>Compost is the product of organic matter decomposition by bacteria, fungi, and other organisms. It transforms waste into a nutrient-rich amendment that mimics natural soil fertility. The process, known as composting, has been practiced for millennia, with evidence from ancient Roman farms.</p>
+      <p><strong>Key Ingredients:</strong></p>
+      <ul>
+        <li><strong>Greens (Nitrogen-rich):</strong> Fruit/veggie scraps, grass clippings, coffee grounds, manure.</li>
+        <li><strong>Browns (Carbon-rich):</strong> Leaves, straw, cardboard, sawdust.</li>
+        <li><strong>Water and Air:</strong> Moisture (50-60%) and oxygen for aerobic decomposition.</li>
+      </ul>
+      <p>The ideal C:N ratio is 30:1. Decomposition releases heat, killing pathogens and weed seeds.</p>
+    </section>
+    <section id="compost-benefits">
+      <h2>Benefits of Compost</h2>
+      <ul>
+        <li><strong>Nutrient Supply:</strong> Provides NPK plus micronutrients; improves soil health.</li>
+        <li><strong>Soil Structure:</strong> Enhances drainage, aeration, and water retention.</li>
+        <li><strong>Eco-Friendly:</strong> Reduces landfill waste; sequesters carbon.</li>
+        <li><strong>Disease Suppression:</strong> Beneficial microbes outcompete harmful ones.</li>
+        <li><strong>Cost-Effective:</strong> Free or low-cost from household waste.</li>
+      </ul>
+      <div class="highlight">
+        <p><strong>Fact:</strong> Composting can divert up to 30% of household waste from landfills, according to the EPA.</p>
+      </div>
+    </section>
+    <section id="compost-making">
+      <h2>How to Make Compost</h2>
+      <ol>
+        <li><strong>Choose a Method:</strong> Bin (tumbler or stationary), pile, or worm bin (vermiculture).</li>
+        <li><strong>Layer Materials:</strong> Start with browns, add greens, repeat. Chop items for faster breakdown.</li>
+        <li><strong>Maintain Conditions:</strong> Keep moist (like a wrung-out sponge), turn weekly for aeration. Temperature should reach 130-160°F (54-71°C) for hot composting.</li>
+        <li><strong>Monitor:</strong> Avoid meat, dairy, oils (attract pests). Compost is ready in 2-6 months when dark, crumbly, and earthy-smelling.</li>
+        <li><strong>Troubleshoot:</strong> If smelly, add browns and turn; if slow, add greens or water.</li>
+      </ol>
+      <p><strong>Advanced Tip:</strong> Use a compost thermometer. For faster results, use a tumbler or add activators like compost starter.</p>
+    </section>
+    <section id="compost-uses">
+      <h2>Uses of Compost</h2>
+      <ul>
+        <li><strong>Gardening:</strong> Mix into soil (1-2 inches) or use as top dressing.</li>
+        <li><strong>Compost Tea:</strong> Steep compost in water for 24-48 hours; strain and use as liquid fertilizer.</li>
+        <li><strong>Mulch:</strong> Spread around plants to suppress weeds and retain moisture.</li>
+        <li><strong>Seed Starting:</strong> Blend with soil for nutrient-rich mix.</li>
+      </ul>
+    </section>
+
+    <section id="pioneers">
+        <h2>Pioneers in Hydroponics and Composting</h2>
+        <p>Behind these methods are visionary individuals whose experiments and innovations paved the way for modern sustainable agriculture. Here are stories of some key figures:</p>
+        <h3>Hydroponics Pioneers</h3>
+        <ul>
+            <li><strong>Ancient Origins – The Hanging Gardens of Babylon:</strong> One of the earliest examples of hydroponics-like systems, built around 600 BC by King Nebuchadnezzar II. Engineers used a chain-pump system to irrigate plants in terraced gardens without soil, showcasing advanced water management in a desert environment. This "wonder of the world" inspired later soil-less growing techniques.</li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT94TIQeArhXTKl5tZTRgAUo6a7nvIOcqvhLA&amp;s" alt="Reconstruction of the Hanging Gardens of Babylon" width="400">
+            <p><em>Image: Artistic reconstruction of the Hanging Gardens of Babylon. (Source: Wikimedia Commons)</em></p>
+            <li><strong>William Frederick Gericke:</strong> Known as the "father of hydroponics," this American botanist conducted groundbreaking experiments in the 1920s-1930s at the University of California, Berkeley. He grew tomato vines over 7 meters tall using nutrient solutions, proving plants could thrive without soil. His 1940 book "The Complete Guide to Soilless Gardening" popularized the term "hydroponics" and sparked global interest in controlled-environment agriculture.</li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQSyhoDXsAX4HIwO0aYB8non-TdeuhkoUu2w&amp;s" alt="Portrait of Sir Albert Howard" width="400">
+            <p><em>Image: William Frederick Gericke demonstrating his hydroponic experiments. (Source: Wikimedia Commons)</em></p>
+        </ul>
+        <h3>Composting Pioneers</h3>
+        <ul>
+            <li><strong>Sir Albert Howard:</strong> A British botanist and organic farming advocate in the early 20th century, Howard developed composting methods while working in India. Observing traditional Indian farming, he created "Indore composting," a process using organic waste to produce nutrient-rich humus. His 1940 book "An Agricultural Testament" emphasized composting as a way to mimic nature's cycles, influencing modern organic practices and reducing reliance on chemicals.</li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa8D_3aRyf2tLBFoBeUnfDHfgPDwO1hk0s_8kA86PZpac9UMDem7K31mszvL3VspDt29dLteDTg8DCCEo0V-WZaxV4OjQrE6raC4HbwynB8A&amp;s=10" alt="Portrait of Sir Albert Howard" width="400">
+            <p><em>Image: Sir Albert Howard, pioneer of organic composting. (Source: Wikimedia Commons)</em></p>
+            <li><strong>Ruth Stout:</strong> An American gardener and author in the 1950s-1960s, Stout revolutionized backyard composting with her "no-dig" method. She mulched heavily with organic materials like leaves and grass clippings, allowing them to decompose in place without turning. Her book "How to Have a Green Thumb Without an Aching Back" made composting accessible, showing how simple, lazy gardening could yield abundant, healthy produce.</li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Ruth_Stout.jpg/500px-Ruth_Stout.jpg" alt="Portrait of Ruth Stout" width="400">
+            <p><em>Image: Ruth Stout, advocate for no-dig composting. (Source: Wikimedia Commons)</em></p>
+        </ul>
+        <p><strong>Connecting the Dots:</strong> These pioneers' work highlights the synergy between hydroponics and compost. For example, Gericke's nutrient solutions can be enhanced with Howard's compost teas, creating eco-friendly hybrids. Their stories remind us that innovation often stems from observing nature and experimenting boldly.</p>
+    </section>
+
+    <section id="relation">
+      <h2>Hydroponics and Compost: Integration and Sustainability</h2>
+      <p>Hydroponics and composting complement each other in sustainable agriculture. While hydroponics avoids soil, compost can enhance it organically:</p>
+      <ul>
+        <li><strong>Nutrient Source:</strong> Compost tea provides organic nutrients for hydroponic systems, reducing reliance on synthetics.</li>
+        <li><strong>Hybrid Systems:</strong> In aquaponics (fish + hydroponics), fish waste composts into nutrients.</li>
+        <li><strong>Waste Recycling:</strong> Hydroponic plant trimmings can be composted, closing the nutrient loop.</li>
+        <li><strong>Environmental Synergy:</strong> Both reduce waste and promote eco-friendly practices; composting offsets hydroponics' energy use.</li>
+      </ul>
+      <p><strong>Challenges:</strong> Compost can introduce pathogens if not properly managed. For pure hydroponics, stick to sterile nutrients. Research shows organic hydroponics (using compost-derived inputs) can yield comparable results to conventional methods.</p>
+      <div class="highlight">
+        <p><strong>Case Study:</strong> Urban farms like those in New York City use hydroponics with compost teas to grow food locally, cutting transportation emissions.</p>
+      </div>
+    </section>
+    <section id="tips-resources">
+      <h2>Tips and Resources</h2>
+      <h3>Getting Started</h3>
+      <ul>
+        <li>Start with a small hydroponic kit ($50-200). For compost, use a basic bin.</li>
+        <li>Test water quality and nutrients regularly.</li>
+        <li>Join communities like Reddit's r/hydroponics or r/composting for advice.</li>
+      </ul>
+      <h3>Common Mistakes</h3>
+      <ul>
+        <li>Hydroponics: Ignoring pH/EC; overwatering.</li>
+        <li>Compost: Imbalanced ratios; lack of turning.</li>
+      </ul>
+      <h3>Resources</h3>
+      <ul>
+        <li>Books: "The Hydroponic Hot House" by Howard Resh; "The Rodale Book of Composting".</li>
+        <li>Websites: USDA Extension, Hydroponic Research, EPA Composting Guide.</li>
+        <li>Tools: pH meters, compost thermometers, hydroponic reservoirs.</li>
+      </ul>
+      <p>Always check local laws for water use, waste disposal, and organic certification.</p>
+    </section>
+    <p align="center" class="margin">Add a review <a href="https://tinyurl.com/79ted4xf" class="google_form"><i>here</i></a> or here: <img src="79ted4xf-qr.png" alt="QR code for Feedback" width="100" height="100" class="minus_margin"></p>
+    <br>
+  </div>
+  <footer>
+    <p>This guide is for educational purposes. Consult experts for specific applications ONLY!</p>
+    <p><em>Presented by: <strong>Granth Parekh, Stuti Nahar, Aaryan Hingmire, Arnav Pal, Rithvik A R, Sai Aditya Thevar</strong></em></p>
+    <p> &copy; Granth Parekh</p>  
+  </footer>
+  <script>
+    function toggleDropdown(id) {
+      document.querySelectorAll(".dropdown-content").forEach(function (drop) {
+        if (drop.id !== id) drop.classList.remove("show");
+      });
+      document.getElementById(id).classList.toggle("show");
+    }
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        document.querySelectorAll(".dropdown-content").forEach(function (drop) {
+          drop.classList.remove("show");
+        });
+      }
+    }
+  </script>
+
+
+</body></html>
